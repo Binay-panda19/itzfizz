@@ -244,7 +244,7 @@ export default function Hero() {
           {/* Welcome heading */}
           <div
             ref={welcomeRef}
-            className="text-sm md:text-base font-bold uppercase mb-4"
+            className="text-2xl md:text-base font-bold uppercase mb-4"
             style={{
               letterSpacing: "0.4em",
               color: "var(--accent)",
@@ -261,11 +261,12 @@ export default function Hero() {
               letterSpacing: "0.35em",
               willChange: "transform, opacity",
               background: "linear-gradient(180deg, #ffffff 20%, rgba(255,255,255,0.35) 100%)",
+              backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}
           >
-            {splitLetters("DRIVE THE LEGEND")}
+            DRIVE THE LEGEND
           </h1>
 
           {/* Model Description */}
