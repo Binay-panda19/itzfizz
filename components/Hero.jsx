@@ -228,7 +228,7 @@ export default function Hero() {
           ref={cardBottomRef}
           title="Rotary Engine"
           description="Iconic twin-rotor performance engineering"
-          position="bottom"
+          position="top"
         />
 
         {/* ─── Layer 2: 3D Car Canvas (z-10, ABOVE cards) ─── */}

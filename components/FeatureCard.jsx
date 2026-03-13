@@ -3,7 +3,7 @@ import { forwardRef } from "react";
 const positionClasses = {
   left: "left-[6%] md:left-[8%] top-1/2 -translate-y-1/2",
   right: "right-[6%] md:right-[8%] top-1/2 -translate-y-1/2",
-  bottom: "bottom-[10%] md:bottom-[12%] left-1/2 -translate-x-1/2",
+  top: "top-[10%] md:top-[12%] left-1/2 -translate-x-1/2",
 };
 
 const FeatureCard = forwardRef(function FeatureCard(
